@@ -1,8 +1,8 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Touchable } from 'react-native'
 import { Settings } from './svg'
 import Language from './languages'
-import { SettS } from './Style'
+import { SettS, common } from './Style'
 const Lan = Language.English
 export const Sett = () => {
     return (
@@ -11,6 +11,14 @@ export const Sett = () => {
             <Text style={SettS.txt} >
                 {Lan.settings}
             </Text>
+        </View>
+    )
+}
+
+export const BottomFixedBtn = ({ children }) => {
+    return (
+        <View style={common.Bottom}>
+            {children}
         </View>
     )
 }

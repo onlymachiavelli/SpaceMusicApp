@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, ScrollView, TextInput } from 'react-native'
 import { LogingStyle, common } from './Style'
-import { Sett } from './Common'
+import { Sett, BottomFixedBtn } from './Common'
 import Setting from './Settings'
 import { MainLogo, RegularUser, Lock } from './svg'
 import Language from '../../packs/languages'
@@ -53,7 +53,26 @@ const Login = ({ navigation }) => {
                         <Text style={common.Stext}>{Lan.login}</Text>
                     </TouchableOpacity>
                 </View>
+                <TouchableOpacity
+                    style={{
+                        alignSelf: "center",
+                        marginTop: 20,
+                    }}
+                    onPress={() => { }}>
+                    <Text style={{
+                        color: "#Fff",
+                    }}>
+                        {Lan.forgot}
+                    </Text>
+                </TouchableOpacity>
             </ScrollView>
+            <BottomFixedBtn>
+                <TouchableOpacity>
+                    <Text style={{ color: "#fff", fontSize: 19, }}>
+                        {Lan.signin}
+                    </Text>
+                </TouchableOpacity>
+            </BottomFixedBtn>
         </View>
     )
 }

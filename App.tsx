@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import Login from './src/UI/Login'
-import SignUp from './pages/signup/signup'
+import SignUp from './src/UI/SignUp'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import Recover from './pages/recover/recover'

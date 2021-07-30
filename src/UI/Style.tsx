@@ -5,8 +5,8 @@ const Height = Dimensions.get('window').height
 
 export const LogingStyle = StyleSheet.create({
     root: {
-        width: Width,
-        height: Height,
+        width: "100%",
+        height: "100%",
         backgroundColor: "#141923",
     },
     logo: {
@@ -42,8 +42,8 @@ export const SettS = StyleSheet.create({
 
 export const common = StyleSheet.create({
     Full: {
-        width: "100%",
-        height: "100%",
+        width: Width,
+        height: Height,
     },
     Label: {
         color: "#fff",
@@ -68,7 +68,8 @@ export const common = StyleSheet.create({
         marginLeft: 60,
         height: "80%",
         fontWeight: "bold",
-        position: "absolute"
+        position: "absolute",
+        color: "#fff",
 
     },
     inpl: {
@@ -88,5 +89,22 @@ export const common = StyleSheet.create({
         color: "#fff",
         fontSize: 20,
         fontWeight: "900"
+    },
+
+    Bottom: {
+        width: "100%",
+        height: 60,
+        backgroundColor: "#C9872B",
+        position: "absolute",
+        bottom: 0,
+        alignItems: "center",
+        justifyContent: "center",
+        borderTopWidth: 2,
+        borderTopColor: "#fff",
+
     }
+})
+
+export const signin = StyleSheet.create({
+
 })
