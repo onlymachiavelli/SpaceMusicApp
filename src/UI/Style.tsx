@@ -18,7 +18,8 @@ export const LogingStyle = StyleSheet.create({
     BlocInp: {
         width: "100%",
         height: "auto",
-        alignItems: "center"
+        alignItems: "center",
+        marginTop: 20,
 
     }
 })
@@ -55,13 +56,37 @@ export const common = StyleSheet.create({
         width: "90%",
         height: 60,
         paddingLeft: 20,
-        justifyContent: "center"
+        justifyContent: "center",
+        borderRadius: 50,
+        borderWidth: 1,
+        borderColor: "#C9872B",
+        marginTop: 20,
+
     },
     Input: {
+        width: "83%",
+        marginLeft: 60,
+        height: "80%",
+        fontWeight: "bold",
+        position: "absolute"
 
     },
     inpl: {
-
+        position: "absolute",
+        marginLeft: 20,
+    },
+    Subbtn: {
+        width: 200,
+        height: 60,
+        backgroundColor: "#C9872B",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 20,
+        borderRadius: 50
+    },
+    Stext: {
+        color: "#fff",
+        fontSize: 20,
+        fontWeight: "900"
     }
-
 })
