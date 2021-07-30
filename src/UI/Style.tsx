@@ -8,6 +8,18 @@ export const LogingStyle = StyleSheet.create({
         width: Width,
         height: Height,
         backgroundColor: "#141923",
+    },
+    logo: {
+        width: "100%",
+        height: "auto",
+        alignItems: "center"
+
+    },
+    BlocInp: {
+        width: "100%",
+        height: "auto",
+        alignItems: "center"
+
     }
 })
 
@@ -32,5 +44,24 @@ export const common = StyleSheet.create({
         width: "100%",
         height: "100%",
     },
+    Label: {
+        color: "#fff",
+        fontWeight: "bold",
+        fontSize: 23,
+        marginLeft: 40,
+    },
+    InputContaine: {
+        backgroundColor: "#2F384B",
+        width: "90%",
+        height: 60,
+        paddingLeft: 20,
+        justifyContent: "center"
+    },
+    Input: {
+
+    },
+    inpl: {
+
+    }
 
 })
