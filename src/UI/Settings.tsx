@@ -1,8 +1,11 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
 
-const Setting = () => {
+const Setting = ({ navigation }) => {
     return (
-        <View></View>
+        <View>
+            <Text>this is setting page</Text>
+        </View>
     )
 }
+export default Setting

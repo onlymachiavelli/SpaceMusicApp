@@ -31,5 +31,6 @@ export const common = StyleSheet.create({
     Full: {
         width: "100%",
         height: "100%",
-    }
+    },
+
 })

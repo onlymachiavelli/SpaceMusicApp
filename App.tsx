@@ -5,6 +5,7 @@ import SignUp from './pages/signup/signup'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import Recover from './pages/recover/recover'
+import Setting from './src/UI/Settings'
 const Stack = createStackNavigator()
 export default function App() {
 
@@ -32,7 +33,20 @@ export default function App() {
             backgroundColor: "#141923",
           }
         }} name="Recover" component={Recover} />
+
+
+        <Stack.Screen options={{
+          title: "Settings",
+          headerTintColor: "#fff",
+          headerStyle: {
+            backgroundColor: "#141923",
+          }
+        }} name="Setting" component={Setting} />
+
+
+
       </Stack.Navigator>
+
     </NavigationContainer>
   )
 }
