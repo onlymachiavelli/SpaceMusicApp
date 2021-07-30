@@ -106,5 +106,18 @@ export const common = StyleSheet.create({
 })
 
 export const signin = StyleSheet.create({
+    root: {
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#141923",
+    },
 
+    BlocInp: {
+        width: "100%",
+        height: "auto",
+        alignItems: "center",
+        marginTop: 20,
+        alignSelf: "center"
+
+    }
 })

@@ -5,6 +5,7 @@ import { Sett, BottomFixedBtn } from './Common'
 import Setting from './Settings'
 import { MainLogo, RegularUser, Lock } from './svg'
 import Language from '../../packs/languages'
+import SignUp from './SignUp'
 const Lan = Language.English
 const Login = ({ navigation }) => {
     return (
@@ -67,9 +68,12 @@ const Login = ({ navigation }) => {
                 </TouchableOpacity>
             </ScrollView>
             <BottomFixedBtn>
-                <TouchableOpacity>
+                <TouchableOpacity style={{
+                    width: "100%", height: "100%", alignItems
+                        : "center", justifyContent: "center"
+                }} onPress={() => { navigation.navigate(SignUp) }}>
                     <Text style={{ color: "#fff", fontSize: 19, }}>
-                        {Lan.signin}
+                        {Lan.signup}
                     </Text>
                 </TouchableOpacity>
             </BottomFixedBtn>
