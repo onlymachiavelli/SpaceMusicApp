@@ -1,10 +1,16 @@
 import React from 'react'
-import { View, Text, } from 'react-native'
-import { LogingStyle } from './Style'
-import { } from './Common'
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
+import { LogingStyle, common } from './Style'
+import { Sett } from './Common'
 const Login = () => {
     return (
-        <View style={LogingStyle.root}></View>
+        <View style={LogingStyle.root}>
+            <ScrollView style={common.Full}>
+                <TouchableOpacity >
+                    <Sett />
+                </TouchableOpacity>
+            </ScrollView>
+        </View>
     )
 }
 
