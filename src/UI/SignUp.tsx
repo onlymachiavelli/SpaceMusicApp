@@ -82,6 +82,7 @@ const SignUp = ({ navigation }) => {
                         style={{
                             alignSelf: "center",
                             marginTop: 20,
+                            marginBottom: 20,
                         }}
                         onPress={() => { navigation.navigate(Login) }}>
                         <Text style={{

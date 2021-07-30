@@ -58,6 +58,7 @@ const Login = ({ navigation }) => {
                     style={{
                         alignSelf: "center",
                         marginTop: 20,
+                        marginBottom: 20,
                     }}
                     onPress={() => { }}>
                     <Text style={{
