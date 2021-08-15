@@ -9,6 +9,7 @@ import SignUp from './SignUp'
 const Lan = Language.English
 const Login = ({ navigation }) => {
     const [showPass, setShowPass] = useState(true)
+    const [passIcon, setPassIcon] = useState(<Visible/>)
     return (
         
         <View style={LogingStyle.root}>
@@ -51,6 +52,9 @@ const Login = ({ navigation }) => {
                             style={common.Input}
                         >
                         </TextInput>
+                        <View>
+                            {passIcon}
+                        </View>
                     </View>
                     <TouchableOpacity style={common.Subbtn}>
                         <Text style={common.Stext}>{Lan.login}</Text>
