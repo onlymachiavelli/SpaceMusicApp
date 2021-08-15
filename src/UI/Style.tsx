@@ -21,6 +21,10 @@ export const LogingStyle = StyleSheet.create({
         alignItems: "center",
         marginTop: 20,
 
+    },
+    ShowPass:{
+        position:"absolute",
+        right:20,
     }
 })
 

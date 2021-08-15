@@ -52,9 +52,9 @@ const Login = ({ navigation }) => {
                             style={common.Input}
                         >
                         </TextInput>
-                        <View>
+                        <TouchableOpacity style={LogingStyle.ShowPass}>
                             {passIcon}
-                        </View>
+                        </TouchableOpacity>
                     </View>
                     <TouchableOpacity style={common.Subbtn}>
                         <Text style={common.Stext}>{Lan.login}</Text>
