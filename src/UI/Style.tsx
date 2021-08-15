@@ -121,3 +121,11 @@ export const signin = StyleSheet.create({
 
     }
 })
+
+export const Settings = StyleSheet.create({
+    Container:{
+        width:"100%",
+        height:"100%",
+        backgroundColor:"#141923",
+    }
+})

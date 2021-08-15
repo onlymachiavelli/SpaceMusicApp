@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
-
+import {Settings} from './Style'
 const Setting = ({ navigation }) => {
     return (
-        <View>
-            <Text>this is setting page</Text>
+        <View style={Settings.Container}>
+            
         </View>
     )
 }
