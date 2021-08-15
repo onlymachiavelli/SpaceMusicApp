@@ -56,7 +56,7 @@ const SignUp = ({ navigation }) => {
                         <TextInput
                             placeholder={Lan.pnumber}
                             placeholderTextColor="#fff"
-
+                            keyboardType="numeric"
                             style={common.Input}
                         >
                         </TextInput>
