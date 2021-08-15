@@ -54,7 +54,7 @@ const Login = ({ navigation }) => {
                         </TextInput>
                         <TouchableOpacity style={LogingStyle.ShowPass} onPress={()=>{
                             setShowPass(showPass ? false : true)
-                            setPassIcon(passIcon === <Visible/> ? <Hidden/> : <Visible/>)
+                            setPassIcon(showPass ? <Hidden/> : <Visible/>)
                         }}>
                             {passIcon}
                         </TouchableOpacity>

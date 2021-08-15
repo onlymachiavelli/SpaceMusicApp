@@ -25,6 +25,9 @@ export const LogingStyle = StyleSheet.create({
     ShowPass:{
         position:"absolute",
         right:20,
+        paddingTop:10,
+        paddingBottom:10,
+        
     }
 })
 
