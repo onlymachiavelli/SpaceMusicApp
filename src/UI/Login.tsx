@@ -52,7 +52,10 @@ const Login = ({ navigation }) => {
                             style={common.Input}
                         >
                         </TextInput>
-                        <TouchableOpacity style={LogingStyle.ShowPass}>
+                        <TouchableOpacity style={LogingStyle.ShowPass} onPress={()=>{
+                            setShowPass(showPass ? false : true)
+                            setPassIcon(passIcon === <Visible/> ? <Hidden/> : <Visible/>)
+                        }}>
                             {passIcon}
                         </TouchableOpacity>
                     </View>
