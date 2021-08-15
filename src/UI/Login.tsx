@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useState} from'react'
 import { View, Text, TouchableOpacity, ScrollView, TextInput } from 'react-native'
 import { LogingStyle, common } from './Style'
 import { Sett, BottomFixedBtn } from './Common'
 import Setting from './Settings'
-import { MainLogo, RegularUser, Lock } from './svg'
+import { MainLogo, RegularUser, Lock, Visible, Hidden } from './svg'
 import Language from '../../packs/languages'
 import SignUp from './SignUp'
 const Lan = Language.English
 const Login = ({ navigation }) => {
+    const [showPass, setShowPass] = useState(true)
     return (
+        
         <View style={LogingStyle.root}>
             <ScrollView style={common.Full}>
                 <TouchableOpacity onPress={() => { navigation.navigate(Setting) }} >
@@ -45,7 +47,7 @@ const Login = ({ navigation }) => {
                         <TextInput
                             placeholder={Lan.password}
                             placeholderTextColor="#fff"
-
+                            secureTextEntry={showPass}
                             style={common.Input}
                         >
                         </TextInput>
