@@ -138,6 +138,6 @@ export const Settings = StyleSheet.create({
     B_button:{
         width:"80%",
         height:60,
-        background:"#2F384B"
+        backgroundColor:"#2F384B"
     }
 })
