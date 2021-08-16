@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
 import {Settings, common} from './Style'
-import { Moon, Sun} from "./svg"
+import { Moon, Sun, Language as Lann} from "./svg"
 import Language from './languages'
 let lan = Language.English
 const Setting = ({ navigation }) => {
@@ -18,6 +18,15 @@ const Setting = ({ navigation }) => {
                 </View>
                <Text style={Settings.btnTXT}>
                    {lan.display + " : " + lan.dark }
+               </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={()=>{}} style={Settings.B_button}>
+                <View style={{marginTop:-10,}}>
+                    <Lann/>
+                </View>
+               <Text style={Settings.btnTXT}>
+                   {lan.language + " : " + lan.english }
                </Text>
             </TouchableOpacity>
         </View>
