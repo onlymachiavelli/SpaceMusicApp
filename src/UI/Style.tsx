@@ -142,5 +142,7 @@ export const Settings = StyleSheet.create({
         alignSelf:"center",
         marginTop:40,
         borderRadius:5,
+        paddingLeft:40,
+        justifyContent:"center"
     }
 })
