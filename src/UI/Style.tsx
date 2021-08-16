@@ -143,6 +143,13 @@ export const Settings = StyleSheet.create({
         marginTop:40,
         borderRadius:5,
         paddingLeft:40,
-        justifyContent:"center"
+        justifyContent:"center",
+        
+    },
+    btnTXT:{
+        color:"#fff",
+        marginLeft:60,
+        marginTop:-33,
+        fontSize:20,
     }
 })

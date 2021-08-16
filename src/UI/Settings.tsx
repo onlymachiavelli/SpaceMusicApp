@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
 import {Settings, common} from './Style'
 import { Moon, Sun} from "./svg"
@@ -13,9 +13,12 @@ const Setting = ({ navigation }) => {
                 </Text>
             </View>
             <TouchableOpacity onPress={()=>{}} style={Settings.B_button}>
-                <View>
+                <View style={{marginTop:-10,}}>
                     <Moon/>
                 </View>
+               <Text style={Settings.btnTXT}>
+                   {lan.display + " : " + lan.dark }
+               </Text>
             </TouchableOpacity>
         </View>
     )
