@@ -136,8 +136,11 @@ export const Settings = StyleSheet.create({
         backgroundColor:"#141923",
     },
     B_button:{
-        width:"80%",
-        height:60,
-        backgroundColor:"#2F384B"
+        width:"85%",
+        height:90,
+        backgroundColor:"#2F384B",
+        alignSelf:"center",
+        marginTop:40,
+        borderRadius:5,
     }
 })
