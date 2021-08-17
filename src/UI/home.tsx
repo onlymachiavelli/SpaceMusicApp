@@ -6,7 +6,7 @@ import {View, Text, ScrollView, TouchableOpacity, } from 'react-native'
 const Home = () =>{
     return(
         <ScrollView>
-            
+            <Text>This is home page !</Text>
         </ScrollView>
     )
 }
