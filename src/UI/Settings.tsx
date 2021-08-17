@@ -13,7 +13,7 @@ const Setting = ({ navigation }) => {
                 </Text>
             </View>
             <TouchableOpacity onPress={()=>{}} style={Settings.B_button}>
-                <View style={{marginTop:-10,}}>
+                <View style={{marginTop:-15,}}>
                     <Moon/>
                 </View>
                <Text style={Settings.btnTXT}>
