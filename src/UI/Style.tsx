@@ -140,7 +140,7 @@ export const Settings = StyleSheet.create({
         height:90,
         backgroundColor:"#2F384B",
         alignSelf:"center",
-        marginTop:40,
+        marginTop:43,
         borderRadius:5,
         paddingLeft:40,
         justifyContent:"center",
