@@ -153,3 +153,4 @@ export const Settings = StyleSheet.create({
         fontSize:20,
     }
 })
+
