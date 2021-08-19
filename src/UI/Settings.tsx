@@ -46,28 +46,28 @@ const Setting = ({ navigation }) => {
                         <Instagram />
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={
+                <TouchableOpacity style={Settings.social_btn} onPress={
                     () => {
                         Linking.openURL("https://instagram.com/onlymachiavelli")
                     }}>
                     <Text>
-                        <Instagram />
+                        <Twitter />
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={
+                <TouchableOpacity style={Settings.social_btn} onPress={
                     () => {
                         Linking.openURL("https://instagram.com/onlymachiavelli")
                     }}>
                     <Text>
-                        <Instagram />
+                        <Linkedin />
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={
+                <TouchableOpacity style={Settings.social_btn} onPress={
                     () => {
                         Linking.openURL("https://instagram.com/onlymachiavelli")
                     }}>
                     <Text>
-                        <Instagram />
+                        <Gmail />
                     </Text>
                 </TouchableOpacity>
             </View>

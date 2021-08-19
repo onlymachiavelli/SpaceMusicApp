@@ -137,7 +137,7 @@ export const Settings = StyleSheet.create({
     },
     B_button: {
         width: "85%",
-        height: 120,
+        height: 110,
         backgroundColor: "#2F384B",
         alignSelf: "center",
         marginTop: 43,
@@ -179,9 +179,16 @@ export const Settings = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         height: "auto",
-
+        flexDirection: "row"
     },
     social_btn: {
+        width: 60,
+        height: 60,
+        borderRadius: 100,
+        backgroundColor: "#C9872B",
+        alignItems: "center",
+        justifyContent: "center",
+        margin: 5,
 
     }
 })
