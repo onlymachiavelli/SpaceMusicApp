@@ -22,12 +22,12 @@ export const LogingStyle = StyleSheet.create({
         marginTop: 20,
 
     },
-    ShowPass:{
-        position:"absolute",
-        right:20,
-        paddingTop:10,
-        paddingBottom:10,
-        
+    ShowPass: {
+        position: "absolute",
+        right: 20,
+        paddingTop: 10,
+        paddingBottom: 10,
+
     }
 })
 
@@ -130,27 +130,31 @@ export const signin = StyleSheet.create({
 })
 
 export const Settings = StyleSheet.create({
-    Container:{
-        width:"100%",
-        height:"100%",
-        backgroundColor:"#141923",
+    Container: {
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#141923",
     },
-    B_button:{
-        width:"85%",
-        height:90,
-        backgroundColor:"#2F384B",
-        alignSelf:"center",
-        marginTop:43,
-        borderRadius:5,
-        paddingLeft:40,
-        justifyContent:"center",
-        
+    B_button: {
+        width: "85%",
+        height: 120,
+        backgroundColor: "#2F384B",
+        alignSelf: "center",
+        marginTop: 43,
+        borderRadius: 5,
+        paddingLeft: 40,
+        justifyContent: "center",
+
     },
-    btnTXT:{
-        color:"#fff",
-        marginLeft:60,
-        marginTop:-33,
-        fontSize:20,
+    btnTXT: {
+        color: "#fff",
+        marginLeft: 60,
+        marginTop: -5,
+        fontSize: 20,
+    },
+    btnicon: {
+        position: "absolute",
+        left: 30,
     }
 })
 

@@ -91,8 +91,10 @@ export const Moon = () => {
 export const Language = () => {
     return (
 
-        <Svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+        <Svg width="38" height="38" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <Path d="M14.5667 0H0V14.1695H8.43333V22H23V7.83051H14.5667V0ZM6.33961 3.35593L3.93362 10.0352H5.55833L5.94962 8.94915H8.43333V12.678H1.53333V1.49153H13.0333V7.83051H9.83883L8.22729 3.35593H6.33961ZM8.0798 7.45763H6.48686L7.28333 5.24653L8.0798 7.45763ZM21.4667 9.32203V20.5085H9.96667V9.32203H21.4667Z" fill="white" />
+            <Path d="M13.8196 16.224C13.9684 16.4698 14.1322 16.7056 14.31 16.93C13.7462 17.2428 13.1058 17.3995 12.3889 17.4V19C13.5624 19 14.6109 18.6796 15.5 18.0588C16.3891 18.6796 17.4376 19 18.6111 19V17.4C17.8957 17.4 17.2553 17.2432 16.69 16.9296C16.8678 16.7054 17.0316 16.4697 17.1804 16.224C17.6287 15.4743 17.9584 14.6561 18.1572 13.8H19V12.2H16.2778V11H14.7222V12.2H12V13.8H12.8428C13.0416 14.6561 13.3713 15.4743 13.8196 16.224ZM16.5466 13.8C16.3857 14.3537 16.1553 14.8835 15.8612 15.376C15.7513 15.5576 15.6307 15.732 15.5 15.8984C15.3788 15.7443 15.2663 15.5832 15.1631 15.4158C14.8571 14.9124 14.6183 14.3689 14.4532 13.8H16.5466Z" fill="white" />
         </Svg>
     )
 }
@@ -307,25 +309,25 @@ export const Liluser = () => {
     )
 }
 
-export const Hidden = () =>{
-    return(
-        
-<Svg width="22" height="9" viewBox="0 0 22 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-<Path d="M1 1C1 1 4.5 5 11 5C17.5 5 21 1 21 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<Path d="M3 2.645L1 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<Path d="M21 5L19.004 2.648" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<Path d="M7.914 4.68L7 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<Path d="M14.063 4.688L15 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</Svg>
+export const Hidden = () => {
+    return (
+
+        <Svg width="22" height="9" viewBox="0 0 22 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Path d="M1 1C1 1 4.5 5 11 5C17.5 5 21 1 21 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <Path d="M3 2.645L1 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <Path d="M21 5L19.004 2.648" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <Path d="M7.914 4.68L7 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <Path d="M14.063 4.688L15 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </Svg>
 
     )
 }
-export const Visible =() =>{
-    return(
-        
-<Svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<Path d="M21.257 10.962C21.731 11.582 21.731 12.419 21.257 13.038C19.764 14.987 16.182 19 12 19C7.81801 19 4.23601 14.987 2.74301 13.038C2.51239 12.7411 2.38721 12.3759 2.38721 12C2.38721 11.6241 2.51239 11.2589 2.74301 10.962C4.23601 9.013 7.81801 5 12 5C16.182 5 19.764 9.013 21.257 10.962V10.962Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<Path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</Svg>
+export const Visible = () => {
+    return (
+
+        <Svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Path d="M21.257 10.962C21.731 11.582 21.731 12.419 21.257 13.038C19.764 14.987 16.182 19 12 19C7.81801 19 4.23601 14.987 2.74301 13.038C2.51239 12.7411 2.38721 12.3759 2.38721 12C2.38721 11.6241 2.51239 11.2589 2.74301 10.962C4.23601 9.013 7.81801 5 12 5C16.182 5 19.764 9.013 21.257 10.962V10.962Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <Path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </Svg>
     )
 }
