@@ -29,6 +29,13 @@ const Setting = ({ navigation }) => {
                     {lan.language + " : " + lan.english}
                 </Text>
             </TouchableOpacity>
+
+            <TouchableOpacity style={Settings.report_btn}>
+                <Text style={Settings.report_btn_txt}>
+
+                    {lan.report}
+                </Text>
+            </TouchableOpacity>
         </View>
     )
 }

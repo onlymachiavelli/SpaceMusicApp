@@ -141,7 +141,7 @@ export const Settings = StyleSheet.create({
         backgroundColor: "#2F384B",
         alignSelf: "center",
         marginTop: 43,
-        borderRadius: 5,
+        borderRadius: 10,
         paddingLeft: 40,
         justifyContent: "center",
 
@@ -155,6 +155,21 @@ export const Settings = StyleSheet.create({
     btnicon: {
         position: "absolute",
         left: 30,
+    },
+    report_btn: {
+        backgroundColor: "#C92B2B",
+        borderRadius: 50,
+        width: 250,
+        height: 70,
+        alignSelf: "center",
+        marginTop: 40,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    report_btn_txt: {
+        color: "#fff",
+        fontSize: 20,
     }
+
 })
 
