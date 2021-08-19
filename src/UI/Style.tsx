@@ -170,6 +170,19 @@ export const Settings = StyleSheet.create({
         color: "#fff",
         fontSize: 20,
     }
+    ,
+    socialMediacontainer: {
 
+        position: "absolute",
+        bottom: 30,
+        width: "100%",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "auto",
+
+    },
+    social_btn: {
+
+    }
 })
 

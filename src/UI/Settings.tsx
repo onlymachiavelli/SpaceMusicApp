@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, Linking } from 'react-native'
 import { Settings, common } from './Style'
-import { Moon, Sun, Language as Lann } from "./svg"
+import { Moon, Sun, Language as Lann, Instagram, Twitter, Linkedin, Gmail } from "./svg"
 import Language from './languages'
 let lan = Language.English
 const Setting = ({ navigation }) => {
@@ -36,6 +36,41 @@ const Setting = ({ navigation }) => {
                     {lan.report}
                 </Text>
             </TouchableOpacity>
+            <View style={Settings.socialMediacontainer}>
+                <TouchableOpacity style={Settings.social_btn} onPress={
+                    () => {
+                        Linking.openURL("https://instagram.com/onlymachiavelli")
+                    }
+                }>
+                    <Text>
+                        <Instagram />
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={
+                    () => {
+                        Linking.openURL("https://instagram.com/onlymachiavelli")
+                    }}>
+                    <Text>
+                        <Instagram />
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={
+                    () => {
+                        Linking.openURL("https://instagram.com/onlymachiavelli")
+                    }}>
+                    <Text>
+                        <Instagram />
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={
+                    () => {
+                        Linking.openURL("https://instagram.com/onlymachiavelli")
+                    }}>
+                    <Text>
+                        <Instagram />
+                    </Text>
+                </TouchableOpacity>
+            </View>
         </View>
     )
 }
